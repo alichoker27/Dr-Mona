@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import { GiMeditation, GiLotusFlower } from "react-icons/gi";
 import { MdPsychology } from "react-icons/md";
+import { IconType } from "react-icons";
 import styles from "./Testimonials.module.css";
 
 interface Certificate {
@@ -21,7 +22,7 @@ interface Certificate {
   description: string;
   institution: string;
   year: string;
-  icon: any;
+  icon: IconType; // ✅ Fixed type
 }
 
 const Testimonials = () => {

@@ -67,11 +67,12 @@ const AboutPage = () => {
               <div className={styles.titleUnderline}></div>
 
               <p className={styles.paragraph}>
-                With over a decade of experience in clinical psychology, I've
-                dedicated my career to helping individuals, couples, and
-                families navigate life's challenges and achieve meaningful
-                personal growth. My approach combines evidence-based therapeutic
-                techniques with genuine compassion and understanding.
+                With over a decade of experience in clinical psychology,
+                I&apos;ve dedicated my career to helping individuals, couples,
+                and families navigate life&apos;s challenges and achieve
+                meaningful personal growth. My approach combines evidence-based
+                therapeutic techniques with genuine compassion and
+                understanding.
               </p>
 
               <p className={styles.paragraph}>
@@ -83,9 +84,10 @@ const AboutPage = () => {
               </p>
 
               <p className={styles.paragraph}>
-                Through our work together, you'll gain insights into patterns
-                that may be holding you back, develop healthier ways of thinking
-                and relating, and create lasting positive change in your life.
+                Through our work together, you&apos;ll gain insights into
+                patterns that may be holding you back, develop healthier ways of
+                thinking and relating, and create lasting positive change in
+                your life.
               </p>
 
               {/* Specializations */}
@@ -141,18 +143,19 @@ const AboutPage = () => {
 
               <p className={styles.paragraph}>
                 Growing better means aligning your mental wellness with your
-                life goals and values. It's about building resilience, fostering
-                healthy relationships, and creating a life that feels authentic
-                and fulfilling. Together, we'll work towards sustainable change
-                that honors your unique experiences and aspirations.
+                life goals and values. It&apos;s about building resilience,
+                fostering healthy relationships, and creating a life that feels
+                authentic and fulfilling. Together, we&apos;ll work towards
+                sustainable change that honors your unique experiences and
+                aspirations.
               </p>
 
               <p className={styles.paragraph}>
-                Whether you're dealing with anxiety, depression, relationship
-                issues, or simply seeking personal growth, I'm here to support
-                you every step of the way. Your success is my success, and I'm
-                committed to providing you with the tools and guidance you need
-                to flourish.
+                Whether you&apos;re dealing with anxiety, depression,
+                relationship issues, or simply seeking personal growth, I&apos;m
+                here to support you every step of the way. Your success is my
+                success, and I&apos;m committed to providing you with the tools
+                and guidance you need to flourish.
               </p>
             </div>
 
