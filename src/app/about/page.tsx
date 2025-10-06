@@ -163,7 +163,7 @@ const AboutPage = () => {
             <div className={styles.imageSection}>
               <div className={styles.imageContainer}>
                 <Image
-                  src="/moni4.jpg"
+                  src="/moni2.jpg"
                   alt="Dr. Mona Chahla - Clinical Practice"
                   width={600}
                   height={700}
