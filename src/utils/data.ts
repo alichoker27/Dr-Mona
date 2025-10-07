@@ -2,6 +2,7 @@ import {
   FaBrain,
   FaHeart,
   FaUsers,
+  FaMedkit,
   FaLeaf,
   FaSpa,
   FaHandHoldingHeart,
@@ -24,6 +25,7 @@ import { MainService, AdditionalService } from "./types";
 import { Step } from "./types";
 import { ContactInfo } from "./types";
 import { Certificate } from "./types";
+import { BlogPost } from "./types";
 
 export const values: Value[] = [
   {
@@ -284,5 +286,58 @@ export const certificates: Certificate[] = [
     institution: "Academy of Clinical Neuropsychology",
     year: "2023",
     icon: MdPsychology,
+  },
+];
+
+export const blogPosts: BlogPost[] = [
+  {
+    id: 1,
+    title: "Understanding Anxiety: Signs & Coping Strategies",
+    date: "2025-09-15",
+    author: "Dr. Mona",
+    summary:
+      "Explore the common signs of anxiety, underlying causes, and practical strategies for managing daily stress effectively.",
+    image: "/blog/anxiety.jpg",
+    category: "Mental Health",
+  },
+  {
+    id: 2,
+    title: "The Power of Mindfulness in Daily Life",
+    date: "2025-08-10",
+    author: "Dr. Mona",
+    summary:
+      "Learn how mindfulness techniques can reduce stress, increase focus, and improve emotional well-being.",
+    image: "/blog/mindfulness.jpg",
+    category: "Mindfulness",
+  },
+  {
+    id: 3,
+    title: "Building Resilience After Trauma",
+    date: "2025-07-20",
+    author: "Dr. Mona",
+    summary:
+      "Discover steps to recover from trauma, strengthen your resilience, and cultivate emotional strength.",
+    image: "/blog/resilience.jpg",
+    category: "Therapy",
+  },
+  {
+    id: 4,
+    title: "Healthy Habits for a Balanced Mind",
+    date: "2025-06-05",
+    author: "Dr. Mona",
+    summary:
+      "Integrate daily habits that promote mental clarity, emotional stability, and overall psychological health.",
+    image: "/blog/healthy-habits.jpg",
+    category: "Wellness",
+  },
+  {
+    id: 5,
+    title: "The Role of Emotional Intelligence in Relationships",
+    date: "2025-05-18",
+    author: "Dr. Mona",
+    summary:
+      "Understand how emotional intelligence affects your personal and professional relationships and ways to enhance it.",
+    image: "/blog/emotional-intelligence.jpg",
+    category: "Psychology",
   },
 ];
