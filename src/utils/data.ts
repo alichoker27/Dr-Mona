@@ -23,6 +23,7 @@ import { BiSupport } from "react-icons/bi";
 import { MainService, AdditionalService } from "./types";
 import { Step } from "./types";
 import { ContactInfo } from "./types";
+import { Certificate } from "./types";
 
 export const values: Value[] = [
   {
@@ -220,5 +221,68 @@ export const contacts: ContactInfo[] = [
     value: "@yourhandle",
     href: "https://instagram.com/yourhandle",
     icon: FaInstagram,
+  },
+];
+
+export const certificates: Certificate[] = [
+  {
+    id: 1,
+    image: "/certificate1.jpg",
+    title: "Clinical Psychology Doctorate",
+    description:
+      "Advanced degree in Clinical Psychology with specialization in cognitive behavioral therapy and trauma-informed care.",
+    institution: "American Psychological Association",
+    year: "2018",
+    icon: FaBrain,
+  },
+  {
+    id: 2,
+    image: "/certificate2.jpg",
+    title: "Family Therapy Certification",
+    description:
+      "Specialized training in systemic family therapy and relationship counseling techniques.",
+    institution: "Institute of Family Therapy",
+    year: "2019",
+    icon: FaHeart,
+  },
+  {
+    id: 3,
+    image: "/certificate3.jpg",
+    title: "Mindfulness-Based Therapy",
+    description:
+      "Certified practitioner in mindfulness-based stress reduction and meditation therapy.",
+    institution: "Center for Mindfulness Studies",
+    year: "2020",
+    icon: GiMeditation,
+  },
+  {
+    id: 4,
+    image: "/certificate4.jpg",
+    title: "Trauma & PTSD Specialist",
+    description:
+      "Advanced certification in trauma treatment, EMDR therapy, and post-traumatic stress disorder management.",
+    institution: "International Society for Traumatic Stress Studies",
+    year: "2021",
+    icon: FaLeaf,
+  },
+  {
+    id: 5,
+    image: "/certificate5.jpg",
+    title: "Holistic Wellness Psychology",
+    description:
+      "Integrative approach combining traditional psychology with holistic wellness practices.",
+    institution: "Holistic Psychology Institute",
+    year: "2022",
+    icon: GiLotusFlower,
+  },
+  {
+    id: 6,
+    image: "/certificate6.jpg",
+    title: "Neuropsychology Certification",
+    description:
+      "Specialized training in brain-behavior relationships and cognitive assessment techniques.",
+    institution: "Academy of Clinical Neuropsychology",
+    year: "2023",
+    icon: MdPsychology,
   },
 ];

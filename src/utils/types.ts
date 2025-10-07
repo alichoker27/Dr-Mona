@@ -48,3 +48,13 @@ export type ContactInfo = {
   href: string;
   icon: IconType;
 };
+
+export interface Certificate {
+  id: number;
+  image: string;
+  title: string;
+  description: string;
+  institution: string;
+  year: string;
+  icon: IconType;
+}
