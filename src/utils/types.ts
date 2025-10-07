@@ -41,3 +41,10 @@ export interface Step {
   icon: IconType;
   description: string;
 }
+
+export type ContactInfo = {
+  type: string;
+  value: string;
+  href: string;
+  icon: IconType;
+};

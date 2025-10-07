@@ -10,6 +10,11 @@ import {
   FaBalanceScale,
   FaComments,
   FaSearch,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaLinkedin,
+  FaTwitter,
+  FaInstagram,
 } from "react-icons/fa";
 import { Value, PersonalInfo } from "./types";
 import { GiMeditation, GiLotusFlower } from "react-icons/gi";
@@ -17,6 +22,7 @@ import { MdPsychology, MdFamilyRestroom } from "react-icons/md";
 import { BiSupport } from "react-icons/bi";
 import { MainService, AdditionalService } from "./types";
 import { Step } from "./types";
+import { ContactInfo } from "./types";
 
 export const values: Value[] = [
   {
@@ -181,5 +187,38 @@ export const labSteps: Step[] = [
     icon: FaHeart,
     description:
       "The final step is cultivating self-acceptance, peace of mind, and mental strength — achieving your healthiest self.",
+  },
+];
+
+export const contacts: ContactInfo[] = [
+  {
+    type: "Email",
+    value: "your.email@example.com",
+    href: "mailto:your.email@example.com",
+    icon: FaEnvelope,
+  },
+  {
+    type: "Phone",
+    value: "+123 456 7890",
+    href: "tel:+1234567890",
+    icon: FaPhoneAlt,
+  },
+  {
+    type: "LinkedIn",
+    value: "linkedin.com/in/yourprofile",
+    href: "https://linkedin.com/in/yourprofile",
+    icon: FaLinkedin,
+  },
+  {
+    type: "Twitter",
+    value: "@yourhandle",
+    href: "https://twitter.com/yourhandle",
+    icon: FaTwitter,
+  },
+  {
+    type: "Instagram",
+    value: "@yourhandle",
+    href: "https://instagram.com/yourhandle",
+    icon: FaInstagram,
   },
 ];
