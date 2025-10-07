@@ -197,7 +197,7 @@ export const contacts: ContactInfo[] = [
   {
     type: "Email",
     value: "your.email@example.com",
-    href: "mailto:your.email@example.com",
+    href: "mailto:22230576@students.liu.edu.lb",
     icon: FaEnvelope,
   },
   {

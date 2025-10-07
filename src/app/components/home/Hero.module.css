@@ -94,9 +94,10 @@
 .imageContainer {
   position: relative;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
   animation: float3D 6s ease-in-out infinite;
+  margin-top: -60px; /* was -40px */
 }
 
 @keyframes float3D {
@@ -124,6 +125,7 @@
   position: relative;
   z-index: 2;
   transition: transform 0.3s ease;
+  transform: scale(0.9); /* reduce size slightly */
 }
 
 .imageContainer:hover .profileImage {
@@ -471,7 +473,8 @@
   }
 
   .imageContainer {
-    max-width: 350px;
+    margin-top: 20px; /* push down to avoid touching header */
+    max-width: 330px; /* balanced scaling for smaller screens */
   }
 
   .heading {
