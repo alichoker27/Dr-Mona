@@ -19,3 +19,18 @@ export type Values = {
   title: string;
   description: string;
 };
+
+export type MainService = {
+  id: number;
+  image: string;
+  icon: IconType;
+  title: string;
+  description: string;
+  features: string[];
+};
+
+export type AdditionalService = {
+  icon: IconType;
+  title: string;
+  description: string;
+};
