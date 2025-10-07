@@ -34,3 +34,10 @@ export type AdditionalService = {
   title: string;
   description: string;
 };
+
+export interface Step {
+  number: number;
+  title: string;
+  icon: IconType;
+  description: string;
+}

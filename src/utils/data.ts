@@ -8,12 +8,15 @@ import {
   FaHandsHelping,
   FaLightbulb,
   FaBalanceScale,
+  FaComments,
+  FaSearch,
 } from "react-icons/fa";
 import { Value, PersonalInfo } from "./types";
 import { GiMeditation, GiLotusFlower } from "react-icons/gi";
 import { MdPsychology, MdFamilyRestroom } from "react-icons/md";
 import { BiSupport } from "react-icons/bi";
 import { MainService, AdditionalService } from "./types";
+import { Step } from "./types";
 
 export const values: Value[] = [
   {
@@ -140,5 +143,43 @@ export const additionalServices: AdditionalService[] = [
     title: "Self-Esteem Building",
     description:
       "Develop confidence, self-worth, and a positive self-image through targeted therapeutic interventions.",
+  },
+];
+
+export const labSteps: Step[] = [
+  {
+    number: 1,
+    title: "Understanding the Mind",
+    icon: FaBrain,
+    description:
+      "Every healing journey begins with understanding. We listen deeply to identify emotional patterns and core challenges.",
+  },
+  {
+    number: 2,
+    title: "Building Trust & Connection",
+    icon: FaComments,
+    description:
+      "A safe, compassionate space allows open communication — the foundation of effective psychological support.",
+  },
+  {
+    number: 3,
+    title: "Exploring the Root Cause",
+    icon: FaSearch,
+    description:
+      "We explore experiences and thoughts shaping your current emotional state, focusing on awareness and clarity.",
+  },
+  {
+    number: 4,
+    title: "Guided Healing Process",
+    icon: FaHandsHelping,
+    description:
+      "Through personalized therapy sessions, we reshape negative beliefs, develop resilience, and nurture growth.",
+  },
+  {
+    number: 5,
+    title: "Achieving Balance & Wellbeing",
+    icon: FaHeart,
+    description:
+      "The final step is cultivating self-acceptance, peace of mind, and mental strength — achieving your healthiest self.",
   },
 ];
