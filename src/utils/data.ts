@@ -230,11 +230,11 @@ export const certificates: Certificate[] = [
   {
     id: 1,
     image: "/certificate1.jpg",
-    title: "Clinical Psychology Doctorate",
+    title: "Psychology Practice License - Lebanon",
     description:
-      "Advanced degree in Clinical Psychology with specialization in cognitive behavioral therapy and trauma-informed care.",
-    institution: "American Psychological Association",
-    year: "2018",
+      "Official authorization to practice psychology, issued by the Lebanese Ministry of Public Health.",
+    institution: "Ministry of Public Health – Republic of Lebanon",
+    year: "2021",
     icon: FaBrain,
   },
   {

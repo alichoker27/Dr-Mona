@@ -71,7 +71,7 @@ const Hero = ({ onDiscoverClick }: HeroProps) => {
             <h1 className={styles.heading}>
               Welcome, I’m
               <br />
-              <span className={styles.highlight}>Dr. Mona Chahla</span>
+              <span className={styles.highlight}>Mona Chahla</span>
             </h1>
 
             <p className={styles.subtitle}>
@@ -133,8 +133,8 @@ const Hero = ({ onDiscoverClick }: HeroProps) => {
             <div className={styles.imageContainer}>
               <div className={styles.imageGlow}></div>
               <Image
-                src="/moni2.jpg"
-                alt="Dr. Mona Chahla"
+                src="/moni4.jpg"
+                alt="Mona Chahla"
                 width={400}
                 height={480}
                 className={styles.profileImage}

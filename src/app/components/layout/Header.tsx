@@ -35,7 +35,7 @@ const Header = () => {
           <div className={styles.imageWrapper}>
             <Image
               src="/mind.jpg"
-              alt="Dr. Mona Chahla"
+              alt="mind therapy"
               width={60}
               height={60}
               className={styles.profileImage}
@@ -45,7 +45,7 @@ const Header = () => {
           <div className={styles.profileInfo}>
             <h1 className={styles.profileName}>
               <RiPlantFill />
-              Dr. Mona Chahla
+              Mona Chahla
             </h1>
             <p className={styles.profileTitle}>Clinical Psychologist</p>
           </div>
@@ -55,7 +55,7 @@ const Header = () => {
         <div className={styles.mobileTitleWrapper}>
           <h1 className={styles.mobileTitle}>
             <RiPlantFill />
-            Dr. Mona Chahla
+            Mona Chahla
             <RiPlantFill />
           </h1>
         </div>
