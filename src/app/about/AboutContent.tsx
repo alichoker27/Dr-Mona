@@ -61,7 +61,7 @@ const AboutContent = () => {
             </div>
 
             <div className={styles.textSection}>
-              <h2 className={styles.sectionTitle}>My Journey in Psychology</h2>
+              <h2 className={styles.sectionTitle}>About Me</h2>
               <div className={styles.titleUnderline}></div>
 
               {personalInfo.aboutParagraphs.map((paragraph, index) => (

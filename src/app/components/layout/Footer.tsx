@@ -77,7 +77,7 @@ const Footer = () => {
 
         {/* Column 3: Follow Us */}
         <div className={styles.column}>
-          <h3 className={styles.columnTitle}>Follow Us</h3>
+          <h3 className={styles.columnTitle}>Follow Me</h3>
           <div className={styles.socialLinks}>
             <a
               href="https://www.facebook.com/share/17Jxegriu8/?mibextid=wwXIfr"
@@ -123,7 +123,7 @@ const Footer = () => {
       <div className={styles.bottomBar}>
         <div className={styles.bottomContainer}>
           <p className={styles.copyright}>
-            © {currentYear} Dr. Mona Chahla. All rights reserved.
+            © {currentYear} Psychologist Mona Chahla. All rights reserved.
           </p>
         </div>
       </div>

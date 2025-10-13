@@ -29,10 +29,10 @@ const ServicesContent = () => {
               <GiLotusFlower className={styles.badgeIcon} />
               <span className={styles.badgeText}>Services</span>
             </div>
-            <h1 className={styles.heroTitle}>Our Features & Services</h1>
+            <h1 className={styles.heroTitle}>My Features & Services</h1>
             <p className={styles.heroSubtitle}>
               Comprehensive therapeutic services tailored to your unique needs
-              and goals
+              and goals, offered through both in-person and online sessions.
             </p>
           </div>
         </div>
@@ -82,10 +82,6 @@ const ServicesContent = () => {
                         </li>
                       ))}
                     </ul>
-
-                    <Link href="/contact" className={styles.learnMoreButton}>
-                      Learn More
-                    </Link>
                   </div>
                 </div>
               );
@@ -140,7 +136,7 @@ const ServicesContent = () => {
               consultation today.
             </p>
             <Link href="/contact" className={styles.ctaButton}>
-              Book a Session
+              Contact Me and book a session
             </Link>
           </div>
         </div>

@@ -58,11 +58,11 @@ export const personalInfo: PersonalInfo = {
   name: "Dr. Mona Chahla",
   subtitle:
     "Licensed Clinical Psychologist dedicated to helping you achieve lasting positive change",
-  image: "/moni2.jpg",
+  image: "/therapy-about.jpg",
   aboutParagraphs: [
-    "With over a decade of experience in clinical psychology, I've dedicated my career to helping individuals, couples, and families navigate life's challenges and achieve meaningful personal growth.",
-    "I believe that everyone has the capacity for healing and transformation. My role is to provide a safe, supportive environment where you can explore your thoughts and feelings.",
-    "Through our work together, you'll gain insights into patterns that may be holding you back and develop healthier ways of thinking and relating.",
+    "I am a licensed clinical psychologist, currently pursuing advanced training in Freudian and Lacanian psychoanalysis, with 10 years of experience in child protection and positive parenting.",
+    "I specialize in working with children, adolescents, and adults, providing support through trauma and emotional challenges while helping individuals explore their inner world.",
+    "Through comprehensive assessment, therapeutic intervention, and evidence-based practices, she promotes mental health, fosters resilience, and guides individuals toward healing and personal growth.",
   ],
   missionParagraphs: [
     "I believe not just in helping people overcome challenges, but in empowering them to thrive.",
@@ -74,7 +74,7 @@ export const personalInfo: PersonalInfo = {
 export const mainServices: MainService[] = [
   {
     id: 1,
-    image: "/service1.jpg",
+    image: "/individual-therapy.jpg",
     icon: FaBrain,
     title: "Individual Therapy",
     description:
@@ -88,7 +88,7 @@ export const mainServices: MainService[] = [
   },
   {
     id: 2,
-    image: "/service2.jpg",
+    image: "/couples-counseling.png",
     icon: FaHeart,
     title: "Couples Counseling",
     description:
@@ -102,9 +102,9 @@ export const mainServices: MainService[] = [
   },
   {
     id: 3,
-    image: "/service3.jpg",
+    image: "/positive-parenting.webp",
     icon: MdFamilyRestroom,
-    title: "Family Therapy",
+    title: "Positive parenting",
     description:
       "Create harmony within your family system by addressing conflicts, improving communication, and fostering healthy relationships among all members.",
     features: [
@@ -196,32 +196,27 @@ export const labSteps: Step[] = [
 export const contacts: ContactInfo[] = [
   {
     type: "Email",
-    value: "your.email@example.com",
-    href: "mailto:22230576@students.liu.edu.lb",
+    value: "chahlamona@gmail.com",
+    href: "mailto:chahlamona@gmail.com",
     icon: FaEnvelope,
   },
   {
     type: "Phone",
-    value: "+123 456 7890",
-    href: "tel:+1234567890",
+    value: "+961 70 541 019",
+    href: "https://wa.me/96170541019?text=Hello%20Dr.%20I%20would%20like%20to%20book%20an%20appointment",
     icon: FaPhoneAlt,
   },
   {
     type: "LinkedIn",
-    value: "linkedin.com/in/yourprofile",
-    href: "https://linkedin.com/in/yourprofile",
+    value: "Mona Chahla",
+    href: "http://linkedin.com/in/chahla-mona-50938b1ab",
     icon: FaLinkedin,
   },
-  {
-    type: "Twitter",
-    value: "@yourhandle",
-    href: "https://twitter.com/yourhandle",
-    icon: FaTwitter,
-  },
+
   {
     type: "Instagram",
-    value: "@yourhandle",
-    href: "https://instagram.com/yourhandle",
+    value: "Mona Chahla",
+    href: "https://www.instagram.com/mona_chahla?igsh=MXZnNjYzNGl6cjEyYg==",
     icon: FaInstagram,
   },
 ];
