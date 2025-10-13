@@ -40,7 +40,7 @@ const Footer = () => {
               <MdLocationOn className={styles.contactIcon} />
               <span className={styles.contactText}>
                 <a
-                  href="https://www.google.com/maps/place/Chtoura+Chams+Center,+Lebanon"
+                  href="https://maps.app.goo.gl/Paz2v3RGA1mvzGay7?g_st=ic"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.contactLink}
@@ -49,7 +49,7 @@ const Footer = () => {
                 </a>{" "}
                 |{" "}
                 <a
-                  href="https://www.google.com/maps/place/Badaro,+Beirut,+Lebanon"
+                  href="https://maps.app.goo.gl/gpDLxiy1Moz6tXFX9?g_st=ipc"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.contactLink}
