@@ -55,7 +55,7 @@ export const values: Value[] = [
 ];
 
 export const personalInfo: PersonalInfo = {
-  name: "Dr. Mona Chahla",
+  name: "Psychologist Mona Chahla",
   subtitle:
     "Licensed Clinical Psychologist dedicated to helping you achieve lasting positive change",
   image: "/therapy-about.jpg",

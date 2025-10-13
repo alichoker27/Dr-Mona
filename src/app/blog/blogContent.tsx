@@ -11,7 +11,7 @@ const BlogContent = () => {
   return (
     <section className={styles.blogPage}>
       <div className={styles.container}>
-        <h1 className={styles.pageTitle}>DR Mona Blog</h1>
+        <h1 className={styles.pageTitle}>Psychologist Mona Blog</h1>
         <p className={styles.pageSubtitle}>
           Explore insights on mental health, mindfulness, therapy, and wellness.
         </p>

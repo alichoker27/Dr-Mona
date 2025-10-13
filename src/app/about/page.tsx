@@ -5,9 +5,9 @@ import AboutContent from "./AboutContent";
 import styles from "./AboutPage.module.css";
 
 export const metadata: Metadata = {
-  title: "About | Dr. Mona Chahla",
+  title: "About | Psychologist Mona Chahla",
   description:
-    "Learn more about Dr. Mona Chahla, a licensed clinical psychologist dedicated to helping people grow and heal.",
+    "Learn more about Psychologist Mona Chahla, a licensed clinical psychologist dedicated to helping people grow and heal.",
 };
 
 export default function AboutPage() {
