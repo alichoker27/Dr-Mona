@@ -168,7 +168,7 @@ export const labSteps: Step[] = [
     title: "Building Trust & Connection",
     icon: FaComments,
     description:
-      "A safe, compassionate space allows open communication — the foundation of effective psychological support.",
+      "A safe, compassionate space allows open communication the foundation of effective psychological support.",
   },
   {
     number: 3,
@@ -189,7 +189,7 @@ export const labSteps: Step[] = [
     title: "Achieving Balance & Wellbeing",
     icon: FaHeart,
     description:
-      "The final step is cultivating self-acceptance, peace of mind, and mental strength — achieving your healthiest self.",
+      "The final step is cultivating self-acceptance, peace of mind, and mental strength achieving your healthiest self.",
   },
 ];
 
@@ -288,18 +288,18 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1,
     title: "Understanding Anxiety: Signs & Coping Strategies",
-    date: "2025-09-15",
-    author: "Dr. Mona",
+    date: "2024-08-15",
+    author: "Psychologist Mona Chahla",
     summary:
-      "Explore the common signs of anxiety, underlying causes, and practical strategies for managing daily stress effectively.",
-    image: "/blog/anxiety.jpg",
+      "Mona Chahla, a licensed clinical psychologist specializing in children, adolescents, and adults, provides insights on recognizing signs of anxiety. Drawing on trauma-informed care and psychoanalytic approaches, she guides individuals through coping strategies to manage stress, explore their inner world, and foster resilience.",
+    image: "/therapy.jpg",
     category: "Mental Health",
   },
   {
     id: 2,
     title: "The Power of Mindfulness in Daily Life",
     date: "2025-08-10",
-    author: "Dr. Mona",
+    author: "Psychologist Mona Chahla",
     summary:
       "Learn how mindfulness techniques can reduce stress, increase focus, and improve emotional well-being.",
     image: "/blog/mindfulness.jpg",
@@ -309,7 +309,7 @@ export const blogPosts: BlogPost[] = [
     id: 3,
     title: "Building Resilience After Trauma",
     date: "2025-07-20",
-    author: "Dr. Mona",
+    author: "Psychologist Mona Chahla",
     summary:
       "Discover steps to recover from trauma, strengthen your resilience, and cultivate emotional strength.",
     image: "/blog/resilience.jpg",
@@ -319,7 +319,7 @@ export const blogPosts: BlogPost[] = [
     id: 4,
     title: "Healthy Habits for a Balanced Mind",
     date: "2025-06-05",
-    author: "Dr. Mona",
+    author: "Psychologist Mona Chahla",
     summary:
       "Integrate daily habits that promote mental clarity, emotional stability, and overall psychological health.",
     image: "/blog/healthy-habits.jpg",
@@ -329,7 +329,7 @@ export const blogPosts: BlogPost[] = [
     id: 5,
     title: "The Role of Emotional Intelligence in Relationships",
     date: "2025-05-18",
-    author: "Dr. Mona",
+    author: "Psychologist Mona Chahla",
     summary:
       "Understand how emotional intelligence affects your personal and professional relationships and ways to enhance it.",
     image: "/blog/emotional-intelligence.jpg",

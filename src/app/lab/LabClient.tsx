@@ -20,18 +20,22 @@ const LabClient = () => {
         })}
       </div>
 
-      <div className={styles.container}>
+      <div className={`${styles.container} ${isVisible ? styles.fadeIn : ""}`}>
         <h1 className={styles.pageTitle}>Therapeutic Lab</h1>
         <p className={styles.pageSubtitle}>
-          Explore the structured journey of psychological healing — from
-          awareness to balance.
+          Explore the structured journey of psychological healing from awareness
+          to balance.
         </p>
 
         <div className={styles.stepsGrid}>
-          {labSteps.map((step) => {
+          {labSteps.map((step, index) => {
             const IconComponent = step.icon;
             return (
-              <div key={step.number} className={styles.stepCard}>
+              <div
+                key={step.number}
+                className={styles.stepCard}
+                style={{ animationDelay: `${index * 0.2}s` }}
+              >
                 <div className={styles.stepNumber}>{step.number}</div>
                 <div className={styles.stepIcon}>
                   <IconComponent />
