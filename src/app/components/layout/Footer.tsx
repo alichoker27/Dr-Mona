@@ -5,7 +5,7 @@ import {
   FaLinkedinIn,
   FaWhatsapp,
 } from "react-icons/fa";
-import { IoGitNetwork } from "react-icons/io5";
+import { MdWork } from "react-icons/md";
 import { MdWorkOff } from "react-icons/md";
 
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
@@ -39,7 +39,23 @@ const Footer = () => {
             <div className={styles.contactItem}>
               <MdLocationOn className={styles.contactIcon} />
               <span className={styles.contactText}>
-                Chtoura chams center | Beirut badaro
+                <a
+                  href="https://www.google.com/maps/place/Chtoura+Chams+Center,+Lebanon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.contactLink}
+                >
+                  Chtoura Chams Center
+                </a>{" "}
+                |{" "}
+                <a
+                  href="https://www.google.com/maps/place/Badaro,+Beirut,+Lebanon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.contactLink}
+                >
+                  Beirut Badaro
+                </a>
               </span>
             </div>
           </div>
@@ -49,7 +65,7 @@ const Footer = () => {
         <div className={styles.column}>
           <h3 className={styles.columnTitle}>Working Hours</h3>
           <div className={styles.contactItem}>
-            <IoGitNetwork className={styles.contactIcon} />
+            <MdWork className={styles.contactIcon} />
             <p className={styles.contactLink}>Mon–Sat: 10:00 AM – 8:00 PM</p>
           </div>
 
@@ -64,7 +80,7 @@ const Footer = () => {
           <h3 className={styles.columnTitle}>Follow Us</h3>
           <div className={styles.socialLinks}>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/share/17Jxegriu8/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialIcon}
@@ -73,7 +89,7 @@ const Footer = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/mona_chahla?igsh=MXZnNjYzNGl6cjEyYg=="
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialIcon}
@@ -82,7 +98,7 @@ const Footer = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://linkedin.com"
+              href="http://linkedin.com/in/chahla-mona-50938b1ab"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialIcon}
