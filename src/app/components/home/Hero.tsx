@@ -114,7 +114,7 @@ const Hero = ({ onDiscoverClick }: HeroProps) => {
                 onClick={onDiscoverClick}
                 className={styles.primaryButton}
               >
-                <span>Discover my certificates</span>
+                <span>Discover my official certificate</span>
                 <IoSparklesSharp className={styles.buttonIcon} />
               </button>
 

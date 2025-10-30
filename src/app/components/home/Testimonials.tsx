@@ -31,7 +31,7 @@ const Testimonials = () => {
             <FaAward />
           </div>
           <h2 className={styles.title}>
-            Professional Certifications & Credentials
+            Professional Certificate & Credential
           </h2>
           <p className={styles.subtitle}>
             Evidence of Excellence, Commitment, and Continuous Professional

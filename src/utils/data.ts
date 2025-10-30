@@ -320,10 +320,10 @@ export const blogPosts: BlogPost[] = [
   {
     id: 4,
     title: "Child protection, safe identification and referal, child behavior",
-    date: "2025-01-04/05",
+    date: "2025-01-05",
     author: "Psychologist Mona Chahla",
     summary:
-      "Focused on recognizing children’s needs, understanding behavior, and ensuring safe referral, highlighting her dedication to creating supportive and protective environments.",
+      "Focused on recognizing children's needs, understanding behavior, and ensuring safe referral, highlighting her dedication to creating supportive and protective environments.",
     image: "/ngo2.jpg",
     category: "Teachers ngo staff",
   },
