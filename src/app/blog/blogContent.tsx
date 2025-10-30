@@ -35,9 +35,6 @@ const BlogContent = () => {
                 <p className={styles.postSummary}>{post.summary}</p>
                 <div className={styles.postMeta}>
                   <span>
-                    <FaUser /> {post.author}
-                  </span>
-                  <span>
                     <FaRegCalendarAlt /> {post.date}
                   </span>
                 </div>

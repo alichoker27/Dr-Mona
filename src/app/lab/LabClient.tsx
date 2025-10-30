@@ -23,8 +23,8 @@ const LabClient = () => {
       <div className={`${styles.container} ${isVisible ? styles.fadeIn : ""}`}>
         <h1 className={styles.pageTitle}>Therapeutic Lab</h1>
         <p className={styles.pageSubtitle}>
-          Explore the structured journey of psychological healing from awareness
-          to balance.
+          Welcome to my magic lab, Explore the structured journey of
+          psychological healing from awareness to balance.
         </p>
 
         <div className={styles.stepsGrid}>

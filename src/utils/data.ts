@@ -232,107 +232,99 @@ export const certificates: Certificate[] = [
     year: "2021",
     icon: FaBrain,
   },
-  {
-    id: 2,
-    image: "/certificate2.jpg",
-    title: "Family Therapy Certification",
-    description:
-      "Specialized training in systemic family therapy and relationship counseling techniques.",
-    institution: "Institute of Family Therapy",
-    year: "2019",
-    icon: FaHeart,
-  },
-  {
-    id: 3,
-    image: "/certificate3.jpg",
-    title: "Mindfulness-Based Therapy",
-    description:
-      "Certified practitioner in mindfulness-based stress reduction and meditation therapy.",
-    institution: "Center for Mindfulness Studies",
-    year: "2020",
-    icon: GiMeditation,
-  },
-  {
-    id: 4,
-    image: "/certificate4.jpg",
-    title: "Trauma & PTSD Specialist",
-    description:
-      "Advanced certification in trauma treatment, EMDR therapy, and post-traumatic stress disorder management.",
-    institution: "International Society for Traumatic Stress Studies",
-    year: "2021",
-    icon: FaLeaf,
-  },
-  {
-    id: 5,
-    image: "/certificate5.jpg",
-    title: "Holistic Wellness Psychology",
-    description:
-      "Integrative approach combining traditional psychology with holistic wellness practices.",
-    institution: "Holistic Psychology Institute",
-    year: "2022",
-    icon: GiLotusFlower,
-  },
-  {
-    id: 6,
-    image: "/certificate6.jpg",
-    title: "Neuropsychology Certification",
-    description:
-      "Specialized training in brain-behavior relationships and cognitive assessment techniques.",
-    institution: "Academy of Clinical Neuropsychology",
-    year: "2023",
-    icon: MdPsychology,
-  },
+  // {
+  //   id: 2,
+  //   image: "/certificate2.jpg",
+  //   title: "Family Therapy Certification",
+  //   description:
+  //     "Specialized training in systemic family therapy and relationship counseling techniques.",
+  //   institution: "Institute of Family Therapy",
+  //   year: "2019",
+  //   icon: FaHeart,
+  // },
+  // {
+  //   id: 3,
+  //   image: "/certificate3.jpg",
+  //   title: "Mindfulness-Based Therapy",
+  //   description:
+  //     "Certified practitioner in mindfulness-based stress reduction and meditation therapy.",
+  //   institution: "Center for Mindfulness Studies",
+  //   year: "2020",
+  //   icon: GiMeditation,
+  // },
+  // {
+  //   id: 4,
+  //   image: "/certificate4.jpg",
+  //   title: "Trauma & PTSD Specialist",
+  //   description:
+  //     "Advanced certification in trauma treatment, EMDR therapy, and post-traumatic stress disorder management.",
+  //   institution: "International Society for Traumatic Stress Studies",
+  //   year: "2021",
+  //   icon: FaLeaf,
+  // },
+  // {
+  //   id: 5,
+  //   image: "/certificate5.jpg",
+  //   title: "Holistic Wellness Psychology",
+  //   description:
+  //     "Integrative approach combining traditional psychology with holistic wellness practices.",
+  //   institution: "Holistic Psychology Institute",
+  //   year: "2022",
+  //   icon: GiLotusFlower,
+  // },
+  // {
+  //   id: 6,
+  //   image: "/certificate6.jpg",
+  //   title: "Neuropsychology Certification",
+  //   description:
+  //     "Specialized training in brain-behavior relationships and cognitive assessment techniques.",
+  //   institution: "Academy of Clinical Neuropsychology",
+  //   year: "2023",
+  //   icon: MdPsychology,
+  // },
 ];
 
 export const blogPosts: BlogPost[] = [
   {
     id: 1,
-    title: "Understanding Anxiety: Signs & Coping Strategies",
-    date: "2024-08-15",
+    title:
+      "Awareness of our children's stress is where support and comfort begin.",
+    date: "2025-04-19",
     author: "Psychologist Mona Chahla",
     summary:
-      "Mona Chahla, a licensed clinical psychologist specializing in children, adolescents, and adults, provides insights on recognizing signs of anxiety. Drawing on trauma-informed care and psychoanalytic approaches, she guides individuals through coping strategies to manage stress, explore their inner world, and foster resilience.",
-    image: "/therapy.jpg",
-    category: "Mental Health",
+      "This session focused on understanding the stress children face today and how parents can respond with empathy and support. Practical tips were shared to help children feel heard, understood, and guided toward healthy coping strategies.",
+    image: "/awarness-of-our-children.jpg",
+    category: "Parents",
   },
   {
     id: 2,
-    title: "The Power of Mindfulness in Daily Life",
-    date: "2025-08-10",
+    title: "Healthy Minds, Healthy Homes: Supporting Parents’ Well-Being",
+    date: "2025-10-19",
     author: "Psychologist Mona Chahla",
     summary:
-      "Learn how mindfulness techniques can reduce stress, increase focus, and improve emotional well-being.",
-    image: "/blog/mindfulness.jpg",
-    category: "Mindfulness",
+      "A healthy home starts with healthy parents. Practical tips were offered to help parents care for their mental and emotional health, ensuring they can support their children with balance and calm.",
+    image: "/municipality.jpg",
+    category: "Municipality",
   },
   {
     id: 3,
-    title: "Building Resilience After Trauma",
-    date: "2025-07-20",
+    title:
+      "Integration of mental health into PHC with Who and National mental health programs",
+    date: "2025-09-08",
     author: "Psychologist Mona Chahla",
     summary:
-      "Discover steps to recover from trauma, strengthen your resilience, and cultivate emotional strength.",
-    image: "/blog/resilience.jpg",
-    category: "Therapy",
+      "Hands-on training on integrating mental health into primary healthcare, following WHO and national guidelines, enhanced her skills in supporting patients early and effectively, reflecting her dedication to mental well-being.",
+    image: "/ngo1.jpg",
+    category: "Ngo staff",
   },
   {
     id: 4,
-    title: "Healthy Habits for a Balanced Mind",
-    date: "2025-06-05",
+    title: "Child protection, safe identification and referal, child behavior",
+    date: "2025-01-04/05",
     author: "Psychologist Mona Chahla",
     summary:
-      "Integrate daily habits that promote mental clarity, emotional stability, and overall psychological health.",
-    image: "/blog/healthy-habits.jpg",
-    category: "Wellness",
-  },
-  {
-    id: 5,
-    title: "The Role of Emotional Intelligence in Relationships",
-    date: "2025-05-18",
-    author: "Psychologist Mona Chahla",
-    summary:
-      "Understand how emotional intelligence affects your personal and professional relationships and ways to enhance it.",
-    image: "/blog/emotional-intelligence.jpg",
-    category: "Psychology",
+      "Focused on recognizing children’s needs, understanding behavior, and ensuring safe referral, highlighting her dedication to creating supportive and protective environments.",
+    image: "/ngo2.jpg",
+    category: "Teachers ngo staff",
   },
 ];
